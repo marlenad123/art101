@@ -1,0 +1,32 @@
+
+.test-div {
+    background:pink;
+    padding: 20px;
+    margin: 20px;
+}
+
+.test-div {
+    color:aqua
+}
+
+P {background: brown;}
+
+
+.test-div .special {
+    background: red;
+}
+.test-div h2 {
+    color: purple;
+}
+
+.test-div:hover {
+    background: rgb(238, 10, 105)
+}
+
+h1, h2, h3, h4 {
+    text-decoration:underline;
+}
+
+H2 {color: blue;}
+
+div h2 {color: orange;}
