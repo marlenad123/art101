@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- All techy stuff goes here, inside HEAD -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Overall title of your page -->
+  <title>Surf's up</title>
+  <!-- Link to external CSS file -->
+  <link href="env08.css" rel="stylesheet" type="text/css" />
+  <!-- jQuery library -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <!-- Link to external JavaScript file -->
+  <script src="env08.js" defer></script>
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo-mark">🌊</div>
+      <div class="brand">
+        <span class="brand-title">Shredder's Central</span>
+        <span class="brand-tagline">Ride the vibes, not the web bugs</span>
+      </div>
+      <nav class="site-nav">
+        <a href="#lineup">Lineup</a>
+        <a href="#conditions">Conditions</a>
+        <a href="#gallery">Gallery</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="lineup">
+      <div class="hero-media">
+        <!-- Background image -->
+        <img id="sunset" src="../images/background.jpeg" alt="Shredders at sunset" />
+
+        <!-- Waves overlay that fades on hover over #highlight1 -->
+        <img id="waves" src="../images/seshhh.jpeg" alt="Surf session overlay">
+      </div>
+
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content">
+        <h1 id="highlight1">Check out those gnarly waves!</h1>
+        <p>Come on and hang 10!</p>
+
+        <button id="transform-button">
+          Transform the lineup
+        </button>
+      </div>
+
+      <!-- Creatures that JS still targets -->
+      <img id="otter" src="../images/otter.png" alt="Otter friend">
+      <img id="surf" src="../images/surf.png" alt="Surfboard">
+    </section>
+
+    <!-- INFO CARDS (POPULATED BY JS) -->
+    <section class="info-row" id="conditions">
+      <div id="output" class="info-card"></div>
+      <div id="output2" class="info-card"></div>
+    </section>
+
+    <!-- GALLERY (HOVER EFFECT + OPACITY ANIMATIONS) -->
+    <section class="gallery" id="gallery">
+      <div class="gallery-header">
+        <h2>Surf Vibes Gallery</h2>
+        <p>Hover to highlight a shot and dim the rest.</p>
+      </div>
+
+      <div class="image-row">
+        <img src="../images/waves.jpg" alt="Ocean waves">
+        <img src="../images/jesseinwater.jpg" alt="Surfer in water">
+        <img src="../images/beautiful.jpg" alt="Beautiful sunset">
+        <img src="../images/waxon.jpg" alt="Wax on board">
+        <img src="../images/surf2.jpg" alt="Surfer riding a wave">
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>Need a break from shredding this page?</p>
+    <a href="../index.html">Back to my homepage</a>
+  </footer>
+
+</body>
+</html>
